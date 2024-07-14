@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Playwrite+BE+VLG:wght@100..400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+}
+
+.calligraffitti-regular {
+    font-family: "Calligraffitti", cursive;
+    font-weight: 800;
+    font-size: 30px;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.hide{
+display: none;
+
+}
+
+
+
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px 15px 30px;
+
+}
+
+.navbar ul {
+
+
+
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 800px;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+    list-style: none;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+.banner {
+    width: calc(100%-2px);
+
+    border: 2px dashed rgba(0, 0, 0, 0.287);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 567px;
+
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/Hero-bg.png');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    color: white;
+    margin-bottom: 64px;
+    padding: 0 0 60px 0;
+
+
+
+
+
+
+}
+
+
+
+
+
+.header-title {
+    width: 868px;
+    height: 300px;
+    margin-bottom: 25px;
+
+
+}
+
+.header-title h1 {
+    margin-bottom: 30px;
+    line-height: 46px;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.header-title p {
+    letter-spacing: 0px;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 500;
+
+    width: 740px;
+    margin: auto;
+
+
+}
+
+.banner .gif {
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 208px;
+    width: 208px;
+
+
+
+}
+
+.gif img {
+    width: 208px;
+
+
+}
+
+
+.banner button {
+    width: 180px;
+    height: 55px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.757);
+
+    margin: 0 40px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.goal-box {
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.033);
+    width: 85%;
+    height: 1350px;
+    padding: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+    margin: auto;
+    margin-bottom: 100px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.goal-header {
+    text-align: center;
+    width: 80%;
+    height: 8%;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.goal-header p {
+    margin: 20px 0 30px 0;
+
+}
+
+.goal-box button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    height: 40px;
+    width: 110px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.379);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+
+}
+
+.goal-box img {
+    width: 140px;
+    height: 120px;
+
+
+
+}
+
+
+.inbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 85%;
+    height: 1200px;
+    overflow: hidden;
+    gap: 25px;
+}
+
+
+
+.info-box {
+    background-color: white;
+    margin-top: 10px;
+
+    font-size: 14px;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px 30px 0;
+}
+
+.info-box-child {
+    background-color: white;
+
+    width: 60%;
+    padding: 30px 10px;
+}
+
+
+
+.info-box-child {
+    line-height: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-box-child a {
+    text-decoration: none;
+}
+
+
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    height: 800px;
+    margin: auto;
+    text-align: center;
+
+    border-width: 10px;
+    margin-bottom: 100px;
+}
+
+.inspiration-header {
+
+    width: 90%;
+    height: 190px;
+    margin-bottom: 0;
+
+
+
+
+
+}
+
+.inspiration-header p {
+
+
+    letter-spacing: 0px;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 500;
+
+
+}
+
+
+
+.inspiration-header h1 {
+
+    margin-bottom: 18px;
+
+}
+
+.iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 100%;
+    height: 534px;
+
+}
+
+iframe {
+    border-radius: 16px;
+}
+
+
+
+.target {
+    width: 85%;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.headers {
+    width: 80%;
+    height: fit-content;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.headers p {
+    letter-spacing: 0px;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 500;
+
+
+}
+
+.headers h1 {
+    margin-bottom: 20px;
+}
+
+.items {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.box {
+    width: 316px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    justify-content: space-between;
+
+
+
+
+}
+
+.box p {
+    font-weight: 1000px;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+
+.box a {
+    color: black;
+}
+
+.box img {
+    width: 35px;
+    height: 33px;
+
+}
+
+
+.box1 {
+
+
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.box2 {
+
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.box3 {
+
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.support {
+    border-radius: 16px;
+
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.619)), url('./assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 272px;
+    margin: auto;
+    margin-bottom: 69px;
+    text-align: center;
+    color: white;
+}
+
+.support-item {
+
+
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.support input {
+    padding-left: 20px;
+    width: 50%;
+    height: 49px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+
+
+
+
+
+}
+
+.support input::placeholder {
+    opacity: 0.4;
+}
+
+.support-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.support button {
+    font-weight: 800;
+    width: 104px;
+    height: 49px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+
+
+
+}
+
+#foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
+    height: 87px;
+}
+
+.foot-items {
+    width: 85%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-items h5 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    opacity: 0.5;
+
+}
+
+.foot-img {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.foot-img img {
+    width: 20px;
+    height: 20px;
+}
+
+#foot button {
+    cursor: pointer;
+    border: none;
+
+}
+
+ 
+
+    
